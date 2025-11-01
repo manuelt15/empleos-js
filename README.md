@@ -61,7 +61,7 @@ Ve a la sección “Empleos” para probar la búsqueda y filtros
 
 ---
 
-📌 Ideas futuras
+🧠 Ideas futuras
 
 Conectar con una API real de empleos
 
