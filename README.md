@@ -1,5 +1,7 @@
-DevJobs
-
+DevJobs 
+---
+https://manuelt15.github.io/empleos-js/
+---
 DevJobs es una landing page + listado de empleos dirigida a desarrolladores.
 El objetivo es mostrar un listado filtrable de ofertas laborales en tecnología, con un diseño oscuro moderno y una experiencia de búsqueda rápida.
 
