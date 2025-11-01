@@ -23,6 +23,8 @@ HTML + CSS + JS puro (sin frameworks)
 
 Pensado como base para un Job Board real
 
+---
+
 🚀 Tecnologías utilizadas
 
 HTML5
@@ -31,6 +33,8 @@ CSS3 (custom variables, dark theme)
 
 JavaScript vanilla
 
+---
+
 📂 Estructura del proyecto
 .
 ├── index.html         # Página de inicio (landing)
@@ -38,10 +42,14 @@ JavaScript vanilla
 ├── styles.css         # Estilos globales
 └── script.js          # Filtros y lógica de búsqueda
 
+---
+
 🔍 Funcionalidades de la búsqueda
 
 El input del buscador filtra los empleos según lo que escriba el usuario.
 También existe un filtro por ubicación usando <select>.
+
+---
 
 🛠 Cómo usar
 
@@ -50,6 +58,8 @@ Clona o descarga el repositorio
 Abre index.html en tu navegador favorito
 
 Ve a la sección “Empleos” para probar la búsqueda y filtros
+
+---
 
 📌 Ideas futuras
 
