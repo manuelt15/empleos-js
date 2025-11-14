@@ -72,6 +72,9 @@ header {
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
+  width: 100%;
+  max-width: 3000px;
+  margin: auto;
 
   h2 {
     font-size: 1.25rem;
@@ -87,14 +90,22 @@ nav {
   display: flex;
 
   a {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: #334155;
+    color: var(--text-primary);
+    display: inline-block;
+    font-size: 0.875rem;
+    font-weight: 700;
     text-decoration: none;
+    /* text-decoration: none;
     color: var(--text-secondary);
     transition: color 0.2s;
-    font-weight: 500;
+    font-weight: 500; */
 
     &:hover,
     &:focus {
-      color: var(--primary);
+      color: lightgreen;
       outline: none;
     }
   }
@@ -115,7 +126,7 @@ header div a {
 
 /* Hero */
 main > section:nth-child(1) {
-  height: 500px;
+  height: 70vh;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -129,6 +140,8 @@ main > section:nth-child(1) {
   & > img {
     position: absolute;
     width: 100%;
+    max-width: 3000px;
+    margin: auto;
     height: 100%;
     object-fit: cover;
     z-index: -1;
@@ -141,8 +154,11 @@ main > section:nth-child(1) {
     );
   }
 }
-
-
+.main-index{
+  min-height: 100vh;
+  max-width: 3000px;
+  margin: auto;
+}
 /* Formulario de Búsqueda */
 form {
   max-width: 42rem;
@@ -220,6 +236,7 @@ main > section:nth-child(2) {
   padding-inline: 1rem;
   background-color: var(--background);
   padding-top: 2rem;
+  width: 100%;
 
   & > header {
     gap: 2px;
@@ -266,6 +283,9 @@ footer {
   border-top: 1px solid var(--border);
   text-align: center;
   padding: 16px;
+  width: 100%;
+  max-width: 3000px;
+  margin: auto;
 
   small {
     color: var(--text-muted);
